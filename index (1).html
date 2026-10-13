@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ShyamGKPN personal website in Hindi and English.">
+<title>ShyamGKPN | Personal Website</title>
+<style>
+:root{--navy:#102744;--blue:#1479ee;--pale:#edf6ff;--ink:#17263b;--muted:#5e6d80}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.65}
+header{background:var(--navy);color:#fff;padding:16px 6%;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.brand{font-size:1.55rem;font-weight:800}.brand span{color:#54a4ff}nav{display:flex;gap:16px;align-items:center;flex-wrap:wrap}nav a{color:#fff;text-decoration:none;font-size:.94rem}
+.lang{border:1px solid #a9cfff;background:transparent;color:#fff;padding:7px 12px;border-radius:20px;cursor:pointer;font-weight:bold}
+.hero{background:linear-gradient(120deg,#102744,#1d5686);color:#fff;padding:72px 7%;min-height:340px;display:flex;align-items:center}.hero-inner{max-width:850px}
+.eyebrow{color:#9fcaff;font-weight:bold;letter-spacing:.08em}h1{font-size:clamp(2.3rem,6vw,4.1rem);line-height:1.12;margin:10px 0}h1 span{color:#54a4ff}.hero p{font-size:1.08rem;max-width:700px;color:#e5effa}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.btn{display:inline-block;padding:10px 18px;border-radius:30px;background:var(--blue);color:#fff;text-decoration:none;font-weight:bold}.btn.outline{background:transparent;border:1px solid #d6e8ff}
+section{padding:52px 7%}section h2{font-size:1.85rem;margin:0 0 18px}section h2 span{color:var(--blue)}.about{display:grid;grid-template-columns:1fr 2fr;gap:28px;align-items:center}
+.photo{min-height:210px;border-radius:18px;background:var(--pale);display:grid;place-items:center;color:var(--muted);text-align:center;padding:22px;border:2px dashed #b7d5f7}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px}.card{padding:19px;border-radius:14px;background:#fff;border:1px solid #dce8f5;box-shadow:0 5px 18px #1027440a}.card h3{margin:0 0 6px}.card p{margin:0;color:var(--muted);font-size:.95rem}
+.tint{background:var(--pale)}.contact{text-align:center;background:#f7faff}footer{background:var(--navy);color:#dce8f5;padding:24px 7%;text-align:center}footer p{margin:5px}
+[langpart="en"]{display:none}body.english [langpart="hi"]{display:none}body.english [langpart="en"]{display:initial}body.english div[langpart="en"],body.english p[langpart="en"],body.english h2[langpart="en"],body.english h3[langpart="en"]{display:block}
+@media(max-width:650px){header{align-items:flex-start}nav{gap:10px}.hero{padding:52px 7%}.about{grid-template-columns:1fr}.photo{min-height:150px}section{padding:40px 7%}}
+</style>
+</head>
+<body class="english">
+<header>
+ <div class="brand">Shyam<span>GKPN</span></div>
+ <nav aria-label="Main navigation">
+  <a href="#home"><span langpart="hi">होम</span><span langpart="en">Home</span></a>
+  <a href="#about"><span langpart="hi">परिचय</span><span langpart="en">About</span></a>
+  <a href="#interests"><span langpart="hi">रुचियाँ</span><span langpart="en">Interests</span></a>
+  <a href="#goals"><span langpart="hi">लक्ष्य</span><span langpart="en">Goals</span></a>
+  <a href="#contact"><span langpart="hi">संपर्क</span><span langpart="en">Contact</span></a>
+  <button class="lang" id="languageToggle" type="button" aria-label="Switch language">हिन्दी</button>
+ </nav>
+</header>
+<main>
+<section class="hero" id="home"><div class="hero-inner">
+ <div class="eyebrow"><span langpart="hi">मेरी पर्सनल वेबसाइट पर आपका स्वागत है</span><span langpart="en">WELCOME TO MY PERSONAL WEBSITE</span></div>
+ <h1><span langpart="hi">नमस्ते, मैं हूँ</span><span langpart="en">Hello, I'm</span> <span>ShyamGKPN</span></h1>
+ <p><span langpart="hi">सपने देखो • सीखो • आगे बढ़ो</span><span langpart="en">Dream • Learn • Grow</span></p>
+ <p><span langpart="hi">यह मेरी व्यक्तिगत वेबसाइट है। यहाँ मैं अपनी यात्रा, रुचियाँ, सीखने के अनुभव और भविष्य के लक्ष्य साझा करूँगा।</span><span langpart="en">This is my personal website. Here, I share my journey, interests, learning experiences, and future goals.</span></p>
+ <div class="actions"><a class="btn" href="#about"><span langpart="hi">मेरे बारे में</span><span langpart="en">About Me</span></a><a class="btn outline" href="#contact"><span langpart="hi">संपर्क करें</span><span langpart="en">Contact Me</span></a></div>
+</div></section>
+<section id="about"><div class="about">
+ <div class="photo"><div><span langpart="hi">यहाँ अपनी असली फोटो जोड़ें</span><span langpart="en">Add your own photo here</span><br><small><span langpart="hi">अपनी फोटो से इस जगह को बदलें</span><span langpart="en">Replace this area with your photo</span></small></div></div>
+ <div><h2><span langpart="hi">मेरे</span><span langpart="en">About</span> <span><span langpart="hi">बारे में</span><span langpart="en">Me</span></span></h2>
+ <p langpart="hi">मेरा नाम <strong>[अपना नाम लिखें]</strong> है। मैं नई चीजें सीखने, अपनी क्षमताएँ बेहतर बनाने और अपने लक्ष्यों की दिशा में आगे बढ़ने में विश्वास रखता हूँ।</p>
+ <p langpart="en">My name is <strong>[Add your name]</strong>. I believe in learning new things, improving my skills, and taking steady steps toward my goals.</p>
+ <p langpart="hi">यह वेबसाइट मेरे परिचय और मेरी प्रगति साझा करने के लिए है।</p><p langpart="en">This website is a place to introduce myself and share my progress.</p>
+ </div></div></section>
+<section class="tint" id="interests"><h2><span langpart="hi">मेरी</span><span langpart="en">My</span> <span><span langpart="hi">रुचियाँ</span><span langpart="en">Interests</span></span></h2>
+ <div class="cards">
+  <article class="card"><h3>💻 <span langpart="hi">तकनीक</span><span langpart="en">Technology</span></h3><p langpart="hi">नई तकनीक और डिजिटल कौशल सीखना।</p><p langpart="en">Learning about technology and digital skills.</p></article>
+  <article class="card"><h3>📚 <span langpart="hi">सीखना</span><span langpart="en">Learning</span></h3><p langpart="hi">हर दिन कुछ नया सीखना और अभ्यास करना।</p><p langpart="en">Learning and practising something new every day.</p></article>
+  <article class="card"><h3>🚀 <span langpart="hi">बिजनेस</span><span langpart="en">Business</span></h3><p langpart="hi">बिजनेस के विचारों और अवसरों को समझना।</p><p langpart="en">Exploring business ideas and opportunities.</p></article>
+  <article class="card"><h3>🌱 <span langpart="hi">व्यक्तिगत विकास</span><span langpart="en">Personal Growth</span></h3><p langpart="hi">बेहतर आदतें बनाना और आगे बढ़ना।</p><p langpart="en">Building better habits and growing as a person.</p></article>
+ </div></section>
+<section id="goals"><h2><span langpart="hi">मेरे</span><span langpart="en">My</span> <span><span langpart="hi">लक्ष्य</span><span langpart="en">Goals</span></span></h2>
+ <div class="cards">
+  <article class="card"><h3><span langpart="hi">सीखना</span><span langpart="en">Learn</span></h3><p langpart="hi">नई स्किल्स और बातचीत की क्षमता बेहतर करना।</p><p langpart="en">Improve my skills and communication.</p></article>
+  <article class="card"><h3><span langpart="hi">बनाना</span><span langpart="en">Build</span></h3><p langpart="hi">अपने काम और विचारों को धीरे-धीरे विकसित करना।</p><p langpart="en">Gradually develop my work and ideas.</p></article>
+  <article class="card"><h3><span langpart="hi">आगे बढ़ना</span><span langpart="en">Grow</span></h3><p langpart="hi">लगातार मेहनत करके अपने लक्ष्यों की ओर बढ़ना।</p><p langpart="en">Keep working consistently toward my goals.</p></article>
+ </div></section>
+<section class="contact" id="contact"><h2><span langpart="hi">संपर्क</span><span langpart="en">Get in</span> <span><span langpart="hi">करें</span><span langpart="en">Touch</span></span></h2>
+ <p langpart="hi">यहाँ अपना सार्वजनिक ईमेल या सोशल मीडिया लिंक जोड़ें।</p><p langpart="en">Add your public email address or social media links here.</p>
+ <p><strong>Email:</strong> [<span langpart="hi">अपना ईमेल जोड़ें</span><span langpart="en">Add your email</span>]</p><p><strong>Social:</strong> [<span langpart="hi">अपना सार्वजनिक प्रोफाइल लिंक जोड़ें</span><span langpart="en">Add your public profile link</span>]</p>
+</section>
+</main>
+<footer><p><strong>ShyamGKPN</strong> · Dream | Learn | Grow</p><p>© ShyamGKPN · Made with care in India</p></footer>
+<script>
+const toggle=document.getElementById('languageToggle');
+toggle.addEventListener('click',()=>{
+ const english=document.body.classList.toggle('english');
+ document.documentElement.lang=english?'en':'hi';
+ toggle.textContent=english?'हिन्दी':'English';
+});
+</script>
+</body></html>
